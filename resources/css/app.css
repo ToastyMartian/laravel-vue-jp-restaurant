@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Dosis:wght@200..800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p, a, span, li, button {
+    @apply text-gray-900 font-en;
+}

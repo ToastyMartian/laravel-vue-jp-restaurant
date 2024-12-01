@@ -13,7 +13,23 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                en: 'Dosis',
+                jp: 'Dela Gothic One'
+            },
+            colors: {
+                beige: {
+                    '100': '#f6ead4'
+
+                },
+                gray: {
+                    '900': '#0e0e0e'
+                },
+                coral: {
+                    '300': '#E85F5C'
+                },
+                green: {
+                    '500': '#53A548'
+                }
             },
         },
     },

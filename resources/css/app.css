@@ -5,5 +5,17 @@
 @tailwind utilities;
 
 p, a, span, li, button {
-    @apply text-gray-900 font-en;
+    @apply text-gray-900 font-en font-medium text-xl;
+}
+
+p {
+    @apply mb-4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply text-black font-jp;
+}
+
+h1 {
+    @apply text-5xl;
 }

@@ -25,10 +25,10 @@ export default {
                     '900': '#0e0e0e'
                 },
                 coral: {
-                    '300': '#E85F5C'
+                    DEFAULT: '#E85F5C'
                 },
                 green: {
-                    '500': '#53A548'
+                    DEFAULT: '#53A548'
                 }
             },
         },

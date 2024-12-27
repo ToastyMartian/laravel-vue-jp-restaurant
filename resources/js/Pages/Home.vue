@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Head, Link } from '@inertiajs/vue3';
-import noodlesIcon from '~/img/icons/noodles.svg';
+import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 
 defineProps<{
     canLogin?: boolean;
@@ -21,7 +21,7 @@ defineProps<{
                     class="grid grid-cols-2 items-center gap-2 py-10 lg:grid-cols-3 space-between max-w-2xl lg:max-w-7xl"
                 >
                     <div class="flex lg:col-start-2 lg:justify-center">
-                        <img class="h-12 w-auto lg:h-16" :src="noodlesIcon"/>
+                        <ApplicationLogo class="h-12 w-auto lg:h-16" />
                     </div>
                     <div class="flex items-center justify-end gap-8">
                         <nav>
